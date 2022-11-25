@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+       <label for="nome"><strong>Nome</strong></label>
+       <br>
+       <input id="nome" type="text" placeholder="Digite seu nome aqui..." required>
+       <br>
+
+       <br>
+       <label for="email"><strong>Email</strong></label>
+       <br>
+       <input id="email" type="email" placeholder="Digite seu email aqui..." required>
+       <br>
+
+       <br>
+       <label for="descrição"><strong>Descrição</strong></label>
+       <br>
+       <textarea name="" id="descrição" cols="40" rows="7" placeholder="O que o motivou a participar do evento"></textarea>
+       <br>
+
+       <br>
+       <label for="módulo"><strong>Módulo</strong></label>
+       <br>
+       <select name="módulo" id="módulo" required="true">
+            <optgroup label="Escolha seu módulo" >
+                <option value="">escolha seu módulo</option>
+                <option value="M1">Módulo 1</option>
+                <option value="M2">Módulo 2</option>
+                <option value="M3">Módulo 3</option>
+                <option value="M4">Módulo 4</option>
+                <option value="M5">Módulo 5</option>
+                <option value="M6">Módulo 6</option>
+            </optgroup>
+       </select>
+       <br>
+
+       <br>
+       <label for="senha"><strong>Senha</strong></label>
+       <br>
+       <input id="senha"type="password" required>
+       <br>
+
+       <br>
+       <label for="confirmar_senha"><strong>Confirmar senha</strong></label>
+       <br>
+       <input id="confirmar_senha"type="password" required>
+       <br>
+
+       <br>
+       <p><strong>Deseja receber novidades em seu e-mail?</strong></p>
+       <label for="notificações_no_email">Sim</label>
+       <input id="notificações_no_email"type="radio" name="receber_notificação" value="sim">
+       <label for="notificações_no_email">Não</label>
+       <input id="notificações_no_email"type="radio" name="receber_notificação" value="não">
+       <br>
+
+       <br>
+       <button type="submit">Enviar</button>
+
+
+
+    </form>
+</body>
+</html>
